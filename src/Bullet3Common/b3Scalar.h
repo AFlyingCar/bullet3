@@ -97,7 +97,7 @@ inline int b3GetVersion()
 		if (!(x))                 \
 		{                         \
 			b3Error(              \
-				"Assert "__FILE__ \
+				"Assert " __FILE__ \
 				":%u (" #x ")\n", \
 				__LINE__);        \
 			__debugbreak();       \
